@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>読み込み中</title>
+</head>
+<body>
+
+  <audio id="audio" src="sound.mp3" autoplay></audio>
+  <script>
+    // 音を再生してから3秒後に移動
+    document.getElementById('audio').play();
+    setTimeout(function() {
+      window.location.href = "https://“310lab.com;
+    }, 500);
+  </script>
+
+</body>
+</html>
